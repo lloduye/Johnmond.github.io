@@ -1,9 +1,9 @@
-
+/* Body margin set to start at the edge*/
 body {
     margin: 0%  
 }
 
-
+/*H1 elements aligned to center and text set to uppercase*/
 h1 {
     text-transform: uppercase; 
     font-family: Arial, Helvetica, sans-serif; 
@@ -12,20 +12,20 @@ h1 {
     color: #000000; 
 }
 
-
+/*h1 element hover effect*/
 h1:hover {
     filter: grayscale(5%); 
     transform: scale(1.1); 
     transition: transform 1s;
 }
 
-
+/*text over the video on loop set to white*/
 .white-text {
     color: teal;
 
 }
 
-
+/*Paragraph font and alignment*/
 p {
     font-family: Arial, Helvetica, sans-serif, 18px;
     text-align: justify;
@@ -35,7 +35,7 @@ p {
     padding-right: 20px; 
 }
 
-
+/*parragraph hover and scale */
 p:hover {
     transition: transform 1s; 
 	transform: scale(1.01);
@@ -49,7 +49,7 @@ p:hover {
     transition: transform 2s; 
     transform: scale(1.1); 
 }
-
+/*links set to bule color*/
 a {
     color: blue; 
 }
@@ -57,7 +57,7 @@ a {
 q {
     font-style: italic; 
 }
-
+/*Image  properties*/
 img {
     overflow: hidden;
     filter: grayscale(5%); 
@@ -68,7 +68,7 @@ img {
     margin-left: auto; 
     margin-right: auto;
 }
-
+/*image hover and scale effect*/
 img:hover {
 	filter: grayscale(5%);  
     transition: transform 1s; 
@@ -82,12 +82,12 @@ img:hover {
     }
 }
 
-
+/*footer*/
 footer {
     padding: 2%; 
     background-color: teal;
 }
-
+/*Navbar*/
 .Navbar {
     overflow: hidden; 
     background-color: black; 
@@ -103,7 +103,7 @@ footer {
     from {left: -100vw;} 
     to {left: 0vw;} 
 }
-
+/*navbar anchor */
 .Navbar a {
     float: left; 
     display: block; 
@@ -129,17 +129,17 @@ footer {
         font-size: 12px;
     }
 }
-
+/*Navbar hover effect*/
 .Navbar a:hover {
     background-color: teal; 
     color: black; 
     font-weight: bold; 
 }
-
+/* current active navbar highlight color*/
 .Navbar a.active { 
     background-color: teal;
 }
-
+/*Video positioning */
 #Typing_Video {
     position: fixed; 
     right: 0; 
@@ -153,7 +153,7 @@ footer {
         display: none;
     }
 }
-
+/*text over the video*/
 .Video_Text {
     background: rgba(0, 0, 0, 0.5); 
     color: white; 
@@ -172,7 +172,7 @@ footer {
 * { 
     box-sizing: border-box; 
 } 
-
+/*Column properties*/
 .Column_1 {
     float: left;
     width: 50%; 
@@ -187,7 +187,7 @@ footer {
         overflow: auto;
     }
 }
-
+/*Column properties*/
 .Column_2 {
     float: left;
     width: 50%;
@@ -196,7 +196,7 @@ footer {
     height: 400px;
     background-color: rgb(255, 255, 255);
 }
-
+/*Column properties*/
 .Column_tall {
     padding-top: 3.5%;
     height: 450px;
@@ -207,6 +207,7 @@ footer {
 	display: table; 
 	clear: both; 
 }
+/*Contact form*/
 input[type=text] {
     width: 100%; 
     padding: 12px; 
@@ -222,7 +223,7 @@ input[type=text] {
 input[type=text]:hover {
     box-shadow: 0 0 5px #00004d inset; 
 }
-
+/*Contact form*/
 input[type=submit] {
     background-color: black; 
     color: white; 
@@ -250,3 +251,5 @@ form {
     padding: 10px; 
     font-family: "Trebuchet MS", Optima;
 }
+
+/*End of CSS*/
